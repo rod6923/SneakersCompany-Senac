@@ -87,6 +87,17 @@
       </div>
   </div>
 </header>
+<!-- Classics -->
+<div class="container text-center" style="margin-top:100px;">
+<h2>Explore os Clássicos!</h2>
+
+
+
+
+
+
+</div>
+
 <!-- Section-->
 <section class="py-5">
   <div class="container px-4 px-lg-5 mt-5">

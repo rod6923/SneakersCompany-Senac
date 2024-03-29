@@ -34,29 +34,29 @@
 </style>
 </head>
 <body>
-<?php include 'navbar.php';
+ <?php include 'navbar.php';
 ?>
     <section class="py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="row  row-cols-9  gx-lg-5 align-items-center">
                 <div class="col-md-6">
-                  <div class="col"><img class="card-img-top mb-5 mb-md-0" src="icons2/BAPE x adidas Forum/abibas1.jpg" alt="..." /></div>
+                  <div class="col"><img class="card-img-top mb-5 mb-md-0" src="icons2/adidas Superstar/abibas1.jpg" alt="..." /></div>
                   
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder"> BAPE x adidas Forum 84 Low 30th Anniversary Blue </h1>
+                    <h1 class="display-5 fw-bolder"> Adidas Superstar Supermodified Core Black </h1>
                     <div class="fs-5 mb-5">
                         <span class="text-decoration-line-through">R$ 1700,00</span>
                         <span> R$ 1349,99</span>
                     </div>
-                    <p class="lead">Para sua mais recente parceria, a BAPE envolve o adidas Forum Low em sua assinatura ABC Camo em duas cores. A segunda colorway é decorada em vários tons de azul, com detalhes prateados nas línguas e fechos de renda de metal. Ambos os pares são empilhados sobre entressolas adidas na cor creme e solas de borracha azul ou verde.</p>
+                    <p class="lead">Você nunca os viu assim. Inspirados no estilo old-school do skate, estes tênis adidas Superstar combinam com tudo. O cabedal em patchwork mistura um xadrez descontraído com as Três Listras ousadas feitas de couro para uma mistura de materiais que simplesmente funciona. A sola de borracha coordenada, a biqueira e a aba do calcanhar completam o visual. E junto com o conforto, há uma pequena surpresa: o forro macio ostenta um tom contrastante para aumentar a energia visual toda vez que você os veste.</p>
                     <div class="d-flex">
-                        <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
+                        
+                        <a href="https://www.adidas.com.br/tenis-superstar-supermodified/GY2552.html" target="_blank" rel="noreferrer noopener"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
                             <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
-                        </button></a></a>
+                            Compre aqui!
+                        </button></a>
                     </div>
                 </div>
             </div>
@@ -115,22 +115,22 @@
                 <div class="col mb-5">
                     <div class="card h-100">
                         <!-- Sale badge-->
-                        
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
                         <!-- Product image-->
-                        <img class="card-img-top" src="icons/Pine green/pine green.png" alt="..." />
+                        <img class="card-img-top" src="icons2/BAPE x adidas Forum/abibas1.jpg" alt="..." />
                         <!-- Product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
                                 <!-- Product name-->
-                                <h5 class="fw-bolder">Air Force 1 Mid x Off-White™Pine Green</h5>
+                                <h5 class="fw-bolder">Bape x adidas Forum 84 Low 30th Anniversary Blue</h5>
                                 <!-- Product price-->
-                                
-                                R$ 2149,71
+                                <span class="text-muted text-decoration-line-through"> R$ 1879,99</span>
+                                 R$ 1579,99
                             </div>      
                         </div>
                         <!-- Product actions-->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="pine.php">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="foruns.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>

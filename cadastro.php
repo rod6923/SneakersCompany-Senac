@@ -36,67 +36,9 @@ rel="stylesheet"
 </head>
 <body class="mx-auto">
 
-    <!-- Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid justify-content-between">
-      <!-- Left elements -->
-      <div class="d-flex">
-        <!-- Brand -->
-        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
-          <img
-            src="img/logo.png.png"
-            height=""
-            alt="MDB Logo"
-            loading="lazy"
-            style=" width: 33px;height: 30px; "
-          />
-          <a class="navbar-brand" href="index2.php" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">SNKRC</a>
-   
-         
-        
-      <!-- Left elements -->
-  
-      <!-- Center elements -->
-      
-      <ul class="navbar-nav flex-row d-none d-md-flex">
-        <li class="nav-item me-3 me-lg-1 active">
-          <a class="nav-link" href="index2.php">
-            <span><i class="fas fa-home fa-lg"></i></span>
-         
-          </a>
-        </li>
-  
-        <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link" href="#">
-            <span><i class="fas fa-flag fa-lg"></i></span>
-          </a>
-        </li>
-  
-        
-  
-        <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link" href="#">
-            <span><i class="fas fa-shopping-bag fa-lg"></i></span>
-          </a>
-        </li>
-  
-      </ul>
-      <!-- Center elements -->
-  
-      <!-- Right elements -->
-      
-         
-    
-      </ul>
-      <!-- Right elements -->
-      <!-- Search form -->
-      <form style="margin-left: 900px" class="input-group w-auto my-auto d-none d-sm-flex">
-    
-      </form>
-    </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
+    <?php 
+    include 'navbar2.php';
+    ?>
 <!-- Section: Design Block -->
 <section class="background-radial-gradient overflow-hidden">
     <style>
@@ -184,26 +126,31 @@ rel="stylesheet"
   
                 <!-- Submit button -->
                 <button type="submit" class="btn bg-red-500 btn-block mb-4" onclick="cadastrar(); return false">
-               Login
+               Cadastre-se
                 </button>
+                <!--Returt to login-->
+                <div class="text-center">
+                <p style="margin-bottom: 10px;" >Já possui uma conta?</p>
+                <a href="login.php"><button type="button" class="btn bg-red-500 btn-block mb-4">   
+               Entre aqui
+                </button></a>
+                 </div>
                 <!-- Register buttons -->
                 <div class="text-center">
                   <p>Ou Cadastre-se Com</p>
-                  <button type="button" class="btn btn-danger btn-floating mx-1">
+                  <button type="button" class="btn  bg-red-500 btn-floating mx-1">
                     <i class="fab fa-facebook-f"></i>
                   </button>
   
-                  <button type="button" class="btn btn-danger btn-floating mx-1">
+                  <button type="button" class="btn  bg-red-500 btn-floating mx-1">
                     <i class="fab fa-google"></i>
                   </button>
   
-                  <button type="button" class="btn btn-danger btn-floating mx-1">
+                  <button type="button" class="btn  bg-red-500 btn-floating mx-1">
                     <i class="fab fa-twitter"></i>
                   </button>
   
-                  <button type="button" class="btn btn-danger btn-floating mx-1">
-                    <i class="fab fa-github"></i>
-                  </button>
+                  
                 </div>
               </form>
 
@@ -242,9 +189,7 @@ rel="stylesheet"
       <a href="" class="me-4 text-reset">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
+      
     </div>
     <!-- Right -->
   </section>
