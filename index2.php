@@ -113,8 +113,7 @@
           </div>
           <div class="col mb-5">
               <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Chicago/chig4go.png" alt="..." />
                   <!-- Product details-->
@@ -143,8 +142,7 @@
           </div>
           <div class="col mb-5">
               <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/French Blue/french2.png" alt="..." />
                   <!-- Product details-->
@@ -192,8 +190,7 @@
           </div>
           <div class="col mb-5">
               <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Nothing But Net/nothing2.png" alt="..." />
                   <!-- Product details-->
@@ -233,8 +230,7 @@
           </div>
           <div class="col mb-5">
               <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Skyline/skyline3.png" alt="..." />
                   <!-- Product details-->

@@ -29,6 +29,8 @@
   rel="stylesheet"
 />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/styleindex.css">
+
 <style>
 
   img{
@@ -38,7 +40,7 @@
 </style>
 
 </head>
-<body>
+<body class="bg-light">
  
 <div class="loading">
 
@@ -48,7 +50,7 @@
    
 <!--Carrossel-->
 <!-- Carousel wrapper -->
-<div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
+<div id="carousellightVariant" class="carousel slide carousel-fade carousel-light" data-mdb-ride="carousel">
  
 
   <!-- Inner -->
@@ -57,16 +59,16 @@
     <H3 style="text-align: center; margin-top: 30px;">Venha já conhecer nossos tênis!</H3>
   <div class="row">
     <div class="col-md-8">
-      <div class="card" style="margin-top: 20px; margin-right: 30px; opacity: 80%;">
+      <div class="card" style="margin-top: 20px; margin-right: 30px; opacity: 95%;">
         <img src="img/jordan4.jpg" alt=""class="rounded-3">
         </div>
 
     </div>
     <div class="col-md-4">
-      <div class="card-deck" style="margin-bottom;" >
-        <div class="card" style="margin-bottom: 100px; margin-top: 20px;opacity: 80%;" ><img src="img/jlost.jpg" alt=""class="rounded-3">
+      <div class="card-deck " style="margin-bottom; " >
+        <div class="card" style="margin-bottom: 100px; margin-top: 20px;;" ><img src="img/jlost.jpg" alt=""class="rounded-3">
         </div>
-        <div class="card rounded" ><img src="img/dunkpetals.jpg" class="rounded-3" alt="" style="opacity: 80%;">
+        <div class="card rounded bg-light" ><img src="img/dunkpetals.jpg" class="rounded-3" alt="" style=";">
         </div>
       </div>
     </div>
@@ -78,20 +80,34 @@
 
 <!-- Carousel wrapper -->
 <!-- Header-->
-<header class="bg-dark py-5 border" style="margin-top:100px;"  >
+<header class="bg-white py-5 border" style="margin-top:100px;"  >
   <div class="container px-4 px-lg-5 my-5 ">
-      <div class="text-center text-light ">
-          <h6 class="display-6 ">Onde a originalidade e qualidade se encontram. <br>
-            Aqui é onde você encontra os tênis mais autênticos do momento.</h6>
-          <p class="lead fw-normal text-white-50 mb-0">Escolha o modelo que mais combine com você</p>
+      <div class="text-center text-dark ">
+          <h6 class="display-6 ">A nova plataforma no mercado <br>
+            Aqui é onde você encontra tudo sobre do momento.</h6>
+          <p class="lead fw-normal text-dark-50 mb-0">Escolha o modelo que mais combine com você e interaja com outros fanáticos por tênis.</p>
       </div>
   </div>
 </header>
 <!-- Classics -->
 <div class="container text-center" style="margin-top:100px;">
 <h2>Explore os Clássicos!</h2>
+ <div class="img-container">
+<a href="">
+  
 
-
+<img class="icone  border shadow" src="imgicons/airforce.png" alt="">
+<h2>Air Force </h2>
+</a>
+<a href="">
+  <img class="icone  border shadow"  src="imgicons/jordan1.png" alt="" style="background-color: white ;" >
+  <h2>Jordan </h2>
+</a>
+<a href="">
+  <img class="icone  border shadow" src="imgicons/forumlow.png" alt="">
+  <h2>Forum Low</h2>
+</a>
+</div>
 
 
 
@@ -99,11 +115,11 @@
 </div>
 
 <!-- Section-->
-<section class="py-5">
+<section class="py-5 bg-white">
   <div class="container px-4 px-lg-5 mt-5">
       <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Big Bubble/big bubbler.png" alt="..." />
                   <!-- Product details-->
@@ -111,8 +127,7 @@
                       <div class="text-center">
                           <!-- Product name-->
                           <h5 class="fw-bolder">Nike Air Max 1 '86 Big Bubble Sport Red</h5>
-                          <!-- Product price-->
-                          R$ 1320,00
+                         
 
                       </div>
                   </div>
@@ -123,9 +138,8 @@
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+              <div class="card h-100 shadow">
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Chicago/chig4go.png" alt="..." />
                   <!-- Product details-->
@@ -135,15 +149,10 @@
                           <h5 class="fw-bolder">Air Jordan 2 Chicago</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">R$ 2168,80</span>
-                          R$ 1988,80
+                          
                       </div>
                   </div>
                   <!-- Product actions-->
@@ -152,20 +161,18 @@
                   </div>
               </div>
           </div>
-          <div class="col mb-5">
-              <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+          <div class="col mb-5 ">
+              <div class="card h-100 shadow">
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/French Blue/french2.png" alt="..." />
                   <!-- Product details-->
-                  <div class="card-body p-4">
+                  <div class="card-body p-4 ">
                       <div class="text-center">
                           <!-- Product name-->
                           <h5 class="fw-bolder">Air Jordan 1 Elevate Low French Blue</h5>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">$R$ 1449,99</span>
-                          R$ 1249,99
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
@@ -175,7 +182,7 @@
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Next Chapter/next3.png" alt="..." />
                   <!-- Product details-->
@@ -185,14 +192,9 @@
                           <h5 class="fw-bolder">Air Jordan 1 High Next Chapter</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
-                          <!-- Product price-->
-                          R$ 1989,97
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
@@ -202,9 +204,8 @@
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+              <div class="card h-100 shadow">
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Nothing But Net/nothing2.png" alt="..." />
                   <!-- Product details-->
@@ -213,8 +214,7 @@
                           <!-- Product name-->
                           <h5 class="fw-bolder">Air Jordan 37 Low Nothing But Net</h5>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">R$ 2589,99</span>
-                          R$ 2399,99
+                          
                       </div>
                   </div>
                   <!-- Product actions-->
@@ -224,7 +224,7 @@
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Pine green/P1ne.png" alt="..." />
                   <!-- Product details-->
@@ -232,8 +232,7 @@
                       <div class="text-center">
                           <!-- Product name-->
                           <h5 class="fw-bolder">Off-White x Nike Air Force 1 Mid SP Leather Pine Green</h5>
-                          <!-- Product price-->
-                          R$ 2149,71
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
@@ -243,9 +242,8 @@
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
-                  <!-- Promoção badge-->
-                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+              <div class="card h-100 shadow">
+                  
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Skyline/skyline3.png" alt="..." />
                   <!-- Product details-->
@@ -255,16 +253,11 @@
                           <h5 class="fw-bolder">Air Jordan 1 High Skyline</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">R$ 2071,45
-                          </span>
-                          R$ 1900,00
+                          
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
@@ -274,7 +267,7 @@
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow-lg">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/WhiteMetallic Silver/White5.png" alt="..." />
                   <!-- Product details-->
@@ -284,14 +277,9 @@
                           <h5 class="fw-bolder">Nike Zoom LeBron NXXT Gen White</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
-                          <!-- Product price-->
-                          R$ 1899,99
+                        
                       </div>
                   </div>
                   <!-- Product actions-->
