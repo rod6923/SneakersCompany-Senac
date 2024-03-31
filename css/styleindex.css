@@ -1,6 +1,6 @@
 .icone{
     max-height: 300px;
-    border-radius: 10px;
+    border-radius: 100px !important;
     overflow: hidden;
   
  }

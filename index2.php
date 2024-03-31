@@ -29,6 +29,8 @@
   rel="stylesheet"
 />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/styleindex.css">
+
 <style>
 
   img{
@@ -38,7 +40,7 @@
 </style>
 
 </head>
-<body>
+<body class="bg-light">
  
 <div class="loading">
 
@@ -48,25 +50,25 @@
    
 <!--Carrossel-->
 <!-- Carousel wrapper -->
-<div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
+<div id="carousellightVariant" class="carousel slide carousel-fade carousel-light" data-mdb-ride="carousel">
  
 
   <!-- Inner -->
 
   <div class="container" style="height: 710px; margin:auto;">
-    <H3 style="text-align: center; margin-top: 30px;">Venha já conhecer nossos tênis!</H3>
+    <H3 style="text-align: center; margin-top: 30px;">Venha já fazer parte dessa comunidade!</H3>
   <div class="row">
     <div class="col-md-8">
-      <div class="card" style="margin-top: 20px; margin-right: 30px; opacity: 80%;">
+      <div class="card" style="margin-top: 20px; margin-right: 30px; opacity: 95%;">
         <img src="img/jordan4.jpg" alt=""class="rounded-3">
         </div>
 
     </div>
     <div class="col-md-4">
-      <div class="card-deck" style="margin-bottom;" >
-        <div class="card" style="margin-bottom: 100px; margin-top: 20px;opacity: 80%;" ><img src="img/jlost.jpg" alt=""class="rounded-3">
+      <div class="card-deck " style="margin-bottom; " >
+        <div class="card" style="margin-bottom: 100px; margin-top: 20px;;" ><img src="img/jlost.jpg" alt=""class="rounded-3">
         </div>
-        <div class="card rounded" ><img src="img/dunkpetals.jpg" class="rounded-3" alt="" style="opacity: 80%;">
+        <div class="card rounded bg-light" ><img src="img/dunkpetals.jpg" class="rounded-3" alt="" style=";">
         </div>
       </div>
     </div>
@@ -78,21 +80,74 @@
 
 <!-- Carousel wrapper -->
 <!-- Header-->
-<header class="bg-dark py-5 border" style="margin-top:100px;"  >
+<header class="bg-white py-5 border" style="margin-top:100px;"  >
   <div class="container px-4 px-lg-5 my-5 ">
-      <div class="text-center text-light ">
-          <h6 class="display-6 ">Onde a originalidade e qualidade se encontram. <br>
-            Aqui é onde você encontra os tênis mais autênticos do momento.</h6>
-          <p class="lead fw-normal text-white-50 mb-0">Escolha o modelo que mais combine com você</p>
+      <div class="text-center text-dark ">
+          <h6 class="display-6 ">A nova plataforma no mercado <br>
+            Aqui é onde você encontra tudo sobre do momento.</h6>
+          <p class="lead fw-normal text-dark-50 mb-0">Escolha o modelo que mais combine com você e interaja com outros fanáticos por tênis.</p>
       </div>
   </div>
 </header>
+<!-- Classics -->
+<div class="card">
+<div class="container text-center" style="margin-top:100px;">
+<h2>Explore os Clássicos!</h2>
+<br><br><br>
+ <div class="img-container text-start ">
+  <div class=" text-justify-center" >
+
+  
+  <div class="row">
+ 
+  <h2 class="text-center" >  Air Force</h2>
+  <div class="col-sm-2 col-md-4"> 
+    <img src="imgicons/airforce.png">
+  </div> <div class="col-sm-10 col-md-7">
+    <p style="margin-top:50px; font-size:17px;" >O Air Force 1 é um tênis icônico da Nike, lançado em 1982 como o primeiro modelo da marca a trazer a revolucionária tecnologia Air na sola para maior amortecimento. Originalmente destinado ao basquete, rapidamente ganhou enorme popularidade na cultura hip hop e nas ruas, com seu design simples, mas elegante, se tornando um símbolo do streetwear. Ao longo de mais de 40 anos, a Nike lançou inúmeras versões especiais e edições limitadas do modelo, que segue sendo um grande sucesso comercial e objeto de culto até hoje, com sua silhueta clássica facilmente reconhecível.</p>
+  </div>
+</div>
+
+  
+<div class="row">
+ 
+ <h2 class="text-center" >Jordan 1</h2>
+ <div class="col-sm-2 col-md-4"> 
+   <img src="imgicons/jordan1.png">
+ </div> <div class="col-sm-10 col-md-7">
+   <p style="margin-top:50px; font-size:17px;" >Concebido pelo lendário designer Peter Moore, o visual arrojado do Air Jordan 1 combinou couro Premium, overlay borrachado e uma sola Air únicos. Apesar de proibido inicialmente pela NBA por violar a política de uniformes, o tênis rapidamente se tornou um objeto de desejo hipercultural por sua estética ousada. Seu sucesso estabeleceu Michael Jordan como um ícone da moda, além de estrela do basquete, e deu início à gigantesca linha Air Jordan que perdura até hoje como uma das mais populares e lucrativas da Nike. O Air Jordan 1 permanece sendo um dos tênis mais cultuados e cobiçados do mundo.</p>
+ </div>
+</div>
+
+  
+<div class="row">
+ 
+ <h2 class="text-center" >  Forum</h2>
+ <div class="col-sm-2 col-md-4"> 
+   <img src="imgicons/forumlow.png">
+ </div> <div class="col-sm-10 col-md-7">
+   <p style="margin-top:50px; font-size:17px;" >O Adidas Forum é um ícone atemporal do streetwear, originalmente lançado em 1984 como um tênis de basquete com design minimalista de couro premium, entressola curvada para tração e o famoso logo de trevo da marca. Embora concebido para as quadras, rapidamente transcendeu o esporte ao ser adotado pela cultura hip-hop e se tornar um objeto de desejo nas ruas, graças ao seu visual descolado. Mesmo décadas após seu lançamento original, o Forum segue sendo um tênis muito celebrado e cobiçado, relançado pela Adidas diversas vezes em edições especiais que mantêm viva a herança deste clássico atemporal.</p>
+ </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
 <!-- Section-->
-<section class="py-5">
+
+<section class="py-5 bg-white">
+  <h1 class="text-center">Recomendações</h1>
   <div class="container px-4 px-lg-5 mt-5">
       <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Big Bubble/big bubbler.png" alt="..." />
                   <!-- Product details-->
@@ -100,19 +155,18 @@
                       <div class="text-center">
                           <!-- Product name-->
                           <h5 class="fw-bolder">Nike Air Max 1 '86 Big Bubble Sport Red</h5>
-                          <!-- Product price-->
-                          R$ 1320,00
+                         
 
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="bigbubble.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="bigbubble.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Chicago/chig4go.png" alt="..." />
@@ -123,46 +177,40 @@
                           <h5 class="fw-bolder">Air Jordan 2 Chicago</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">R$ 2168,80</span>
-                          R$ 1988,80
+                          
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="j2chicago.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="j2chicago.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
-          <div class="col mb-5">
-              <div class="card h-100">
+          <div class="col mb-5 ">
+              <div class="card h-100 shadow">
                   
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/French Blue/french2.png" alt="..." />
                   <!-- Product details-->
-                  <div class="card-body p-4">
+                  <div class="card-body p-4 ">
                       <div class="text-center">
                           <!-- Product name-->
                           <h5 class="fw-bolder">Air Jordan 1 Elevate Low French Blue</h5>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">$R$ 1449,99</span>
-                          R$ 1249,99
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="elevateblue.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="elevateblue.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Next Chapter/next3.png" alt="..." />
                   <!-- Product details-->
@@ -172,24 +220,19 @@
                           <h5 class="fw-bolder">Air Jordan 1 High Next Chapter</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
-                          <!-- Product price-->
-                          R$ 1989,97
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="next.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="next.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Nothing But Net/nothing2.png" alt="..." />
@@ -199,18 +242,17 @@
                           <!-- Product name-->
                           <h5 class="fw-bolder">Air Jordan 37 Low Nothing But Net</h5>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">R$ 2589,99</span>
-                          R$ 2399,99
+                          
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="but.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="but.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Pine green/P1ne.png" alt="..." />
                   <!-- Product details-->
@@ -218,18 +260,17 @@
                       <div class="text-center">
                           <!-- Product name-->
                           <h5 class="fw-bolder">Off-White x Nike Air Force 1 Mid SP Leather Pine Green</h5>
-                          <!-- Product price-->
-                          R$ 2149,71
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="pine.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="pine.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow">
                   
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/Skyline/skyline3.png" alt="..." />
@@ -240,26 +281,21 @@
                           <h5 class="fw-bolder">Air Jordan 1 High Skyline</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
                           <!-- Product price-->
-                          <span class="text-muted text-decoration-line-through">R$ 2071,45
-                          </span>
-                          R$ 1900,00
+                          
+                         
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="skyline.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="skyline.php">Veja mais</a></div>
                   </div>
               </div>
           </div>
           <div class="col mb-5">
-              <div class="card h-100">
+              <div class="card h-100 shadow-lg">
                   <!-- Product image-->
                   <img class="card-img-top" src="icons/WhiteMetallic Silver/White5.png" alt="..." />
                   <!-- Product details-->
@@ -269,19 +305,14 @@
                           <h5 class="fw-bolder">Nike Zoom LeBron NXXT Gen White</h5>
                           <!-- Product reviews-->
                           <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
+                          
                           </div>
-                          <!-- Product price-->
-                          R$ 1899,99
+                        
                       </div>
                   </div>
                   <!-- Product actions-->
                   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="silver.php">Comprar</a></div>
+                      <div class="text-center"><a class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" href="silver.php">Veja mais</a></div>
                   </div>
               </div>
           </div>

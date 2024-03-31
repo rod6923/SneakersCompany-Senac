@@ -90,32 +90,60 @@
   </div>
 </header>
 <!-- Classics -->
+<div class="card">
 <div class="container text-center" style="margin-top:100px;">
 <h2>Explore os Clássicos!</h2>
- <div class="img-container">
-<a href="">
-  
+<br><br><br>
+ <div class="img-container text-start ">
+  <div class=" text-justify-center" >
 
-<img class="icone  border shadow" src="imgicons/airforce.png" alt="">
-<h2>Air Force </h2>
-</a>
-<a href="">
-  <img class="icone  border shadow"  src="imgicons/jordan1.png" alt="" style="background-color: white ;" >
-  <h2>Jordan </h2>
-</a>
-<a href="">
-  <img class="icone  border shadow" src="imgicons/forumlow.png" alt="">
-  <h2>Forum Low</h2>
-</a>
+  
+  <div class="row">
+ 
+  <h2 class="text-center" >  Air Force</h2>
+  <div class="col-sm-2 col-md-4"> 
+    <img src="imgicons/airforce.png">
+  </div> <div class="col-sm-10 col-md-7">
+    <p style="margin-top:50px; font-size:17px;" >O Air Force 1 é um tênis icônico da Nike, lançado em 1982 como o primeiro modelo da marca a trazer a revolucionária tecnologia Air na sola para maior amortecimento. Originalmente destinado ao basquete, rapidamente ganhou enorme popularidade na cultura hip hop e nas ruas, com seu design simples, mas elegante, se tornando um símbolo do streetwear. Ao longo de mais de 40 anos, a Nike lançou inúmeras versões especiais e edições limitadas do modelo, que segue sendo um grande sucesso comercial e objeto de culto até hoje, com sua silhueta clássica facilmente reconhecível.</p>
+  </div>
+</div>
+
+  
+<div class="row">
+ 
+ <h2 class="text-center" >Jordan 1</h2>
+ <div class="col-sm-2 col-md-4"> 
+   <img src="imgicons/jordan1.png">
+ </div> <div class="col-sm-10 col-md-7">
+   <p style="margin-top:50px; font-size:17px;" >Concebido pelo lendário designer Peter Moore, o visual arrojado do Air Jordan 1 combinou couro Premium, overlay borrachado e uma sola Air únicos. Apesar de proibido inicialmente pela NBA por violar a política de uniformes, o tênis rapidamente se tornou um objeto de desejo hipercultural por sua estética ousada. Seu sucesso estabeleceu Michael Jordan como um ícone da moda, além de estrela do basquete, e deu início à gigantesca linha Air Jordan que perdura até hoje como uma das mais populares e lucrativas da Nike. O Air Jordan 1 permanece sendo um dos tênis mais cultuados e cobiçados do mundo.</p>
+ </div>
+</div>
+
+  
+<div class="row">
+ 
+ <h2 class="text-center" >  Forum</h2>
+ <div class="col-sm-2 col-md-4"> 
+   <img src="imgicons/forumlow.png">
+ </div> <div class="col-sm-10 col-md-7">
+   <p style="margin-top:50px; font-size:17px;" >O Adidas Forum é um ícone atemporal do streetwear, originalmente lançado em 1984 como um tênis de basquete com design minimalista de couro premium, entressola curvada para tração e o famoso logo de trevo da marca. Embora concebido para as quadras, rapidamente transcendeu o esporte ao ser adotado pela cultura hip-hop e se tornar um objeto de desejo nas ruas, graças ao seu visual descolado. Mesmo décadas após seu lançamento original, o Forum segue sendo um tênis muito celebrado e cobiçado, relançado pela Adidas diversas vezes em edições especiais que mantêm viva a herança deste clássico atemporal.</p>
+ </div>
+</div>
+
+
+</div>
 </div>
 
 
 
 
+</div>
 </div>
 
 <!-- Section-->
+
 <section class="py-5 bg-white">
+  <h1 class="text-center">Recomendações</h1>
   <div class="container px-4 px-lg-5 mt-5">
       <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           <div class="col mb-5">
