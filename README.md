@@ -15,3 +15,13 @@ Acesse links confiáveis para adquirir os tênis desejados de maneira segura e c
 Inspire-se com uma coleção cuidadosamente selecionada de fotos de tênis, looks e eventos relacionados.
 ### Integração com Redes Sociais: 
 Conecte-se com outros entusiastas, compartilhe suas coleções e interaja com a comunidade em plataformas de mídia social
+## Linguagens Utilizadas:
+  Html
+  CSS
+  PHP
+## Membros
+  Ronaldo Antônio da Rocha Lima
+  Filipe Henrique Ferreira dos Santos
+  Leandro Silva Godoi
+  João Vitor Evangelista Britto
+  
