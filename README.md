@@ -16,12 +16,12 @@ Inspire-se com uma coleção cuidadosamente selecionada de fotos de tênis, look
 ### Integração com Redes Sociais: 
 Conecte-se com outros entusiastas, compartilhe suas coleções e interaja com a comunidade em plataformas de mídia social
 ## Linguagens Utilizadas:
-  Html
-  CSS
-  PHP
+ + Html
+ + CSS
+ + PHP
 ## Membros
-  Ronaldo Antônio da Rocha Lima
-  Filipe Henrique Ferreira dos Santos
-  Leandro Silva Godoi
-  João Vitor Evangelista Britto
+  + Ronaldo Antônio da Rocha Lima
+  + Filipe Henrique Ferreira dos Santos
+  + Leandro Silva Godoi
+  + João Vitor Evangelista Britto
   
