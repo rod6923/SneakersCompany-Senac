@@ -49,6 +49,26 @@
 ?>
    
 <!--Carrossel-->
+<div class="w-100 overflow-hidden bg-light" id="top">
+  
+  <div class="container position-relative">
+    <div class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left" style="background-image: url(icons/j3.png); background-size: contain; background-repeat:no-repeat;">
+      
+    </div>
+      <div class="row">
+  
+  <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+    <h1 class="display-1 fw-bold mt-5">Conheça tudo sobre seus sneakers favoritos!</h1>
+    <p class="lead">A mais nova e melhor comunidade dos sneakers está aqui para revolucionar o mundo dos sneakerheads! Se você é um verdadeiro entusiasta de tênis e busca um paraíso onde possa se conectar com pessoas que compartilham a mesma paixão, você veio ao lugar certo.</p>
+    <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-4 my-5">Veja nossos destaques</a>
+  </div>
+  
+  
+  
+  </div>
+  </div>
+  
+  </div>
 <!-- Carousel wrapper -->
 <div id="carousellightVariant" class="carousel slide carousel-fade carousel-light" data-mdb-ride="carousel">
  
@@ -56,7 +76,7 @@
   <!-- Inner -->
 
   <div class="container" style="height: 710px; margin:auto;">
-    <H3 style="text-align: center; margin-top: 30px;">Venha já conhecer nossos tênis!</H3>
+    <H3 style="text-align: center; margin-top: 30px;"></H3>
   <div class="row">
     <div class="col-md-8">
       <div class="card" style="margin-top: 20px; margin-right: 30px; opacity: 95%;">
@@ -79,6 +99,39 @@
   <!-- Controls -->
 
 <!-- Carousel wrapper -->
+<div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+  <div class="container">
+      
+<div class="row d-flex justify-content-between align-items-center">
+  <div class="col-lg-6">
+  <div class="row gx-5 d-flex">
+    <div class="col-md-11">
+      <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url(imgicons/af1.png);--bs-aspect-ratio: 50%; background-size:350px; background-repeat:no-repeat; ">
+      </div>
+    </div>
+    <div class="col-md-5 offset-md-1">
+      <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up" style="background-image: url(imgicons/af1.png);">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url(imgicons/af1.png);--bs-aspect-ratio: 150%;">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4">
+  <h3 class="py-5 border-top border-dark" data-aos="fade-left">We did some interesting stuff in our field of work. For example we collect a lot of these free photos and use them on our website.</h3>
+  <p data-aos="fade-left" data-aos-delay="200">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  </p>
+  <p>
+    <a href="#" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">Learn more
+    </a>
+  </p>
+</div>
+</div>
+
+  </div>
+</div>
 <!-- Header-->
 <header class="bg-white py-5 border" style="margin-top:100px;"  >
   <div class="container px-4 px-lg-5 my-5 ">
