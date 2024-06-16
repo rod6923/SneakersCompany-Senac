@@ -34,9 +34,7 @@
   }  .navbar {
             box-shadow: none !important;
         }
-        
-        i{
-          color: #DC4C64}
+      
 </style>
 </style>
 </head>
@@ -95,7 +93,7 @@
       </ul>
       <!-- Right elements -->
       <!-- Search form -->
-      <!-- <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
+    <!-- <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
         <input
           autocomplete="off"
           type="search"

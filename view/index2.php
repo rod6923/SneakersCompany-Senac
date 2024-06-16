@@ -33,8 +33,13 @@
     img{
       pointer-events: none;
     }
-    .btn:hover{
-      color: rgb(255, 255, 255);
+    .btn-danger{
+      background-color:#dc4c64;
+    
+    }
+   
+    .btn-outline-danger:hover{
+      background-color:#dc4c64;
     }
     .card2{
     transition:all 0.5s;
@@ -53,6 +58,13 @@ cursor: pointer;
   i{
     color: #DC4C64;
   }
+  .btn-outline-danger{
+border-color: #dc4c64;
+border: 2px solid;
+  } 
+  .text-red{
+      color:#dc4c64;!important
+    }
   </style>
 
   </head>
@@ -74,7 +86,7 @@ cursor: pointer;
         <div class="row">
     
     <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
-      <h1 class="display-1 fw-bold mt-5 text-danger">Conheça tudo sobre seus sneakers favoritos!</h1>
+      <h1 class="display-1 fw-bold mt-5 text-red">Conheça tudo sobre seus sneakers favoritos!</h1>
       <p class="lead">A mais nova e melhor comunidade dos sneakers está aqui <br> para revolucionar o mundo dos sneakerheads! Se você <br>é um verdadeiro entusiasta de tênis e busca um paraíso <br>onde possa se conectar com pessoas que compartilham a <br>mesma paixão, você veio ao lugar certo.</p>
       <a href="#" class="btn btn-danger btn-xl me-3 rounded-4 my-5 text-light">Veja nossos destaques</a> 
     </div>
@@ -131,8 +143,8 @@ cursor: pointer;
                         </div>
                     </div>
                     <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger  mt-auto" href="bigbubble.php">Comprar</a></div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent ">
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="bigbubble.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -156,7 +168,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="j2chicago.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto " href="j2chicago.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -176,7 +188,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="elevateblue.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="elevateblue.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -198,7 +210,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="next.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="next.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -218,7 +230,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="but.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="but.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -236,7 +248,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="pine.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="pine.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -261,7 +273,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="skyline.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="skyline.php">Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -283,7 +295,7 @@ cursor: pointer;
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-danger mt-auto" href="silver.php">Comprar</a></div>
+                        <div class="text-center"><a class="btn btn-outline-danger rounded-pill mt-auto" href="silver.php">Comprar</a></div>
                     </div>
                 </div>
             </div>

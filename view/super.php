@@ -45,7 +45,7 @@
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder"> Adidas Superstar Supermodified Core Black </h1>
+                    <h1 class="display-5 fw-bolder text-danger"> Adidas Superstar Supermodified Core Black </h1>
                     <div class="fs-5 mb-5">
                         <span class="text-decoration-line-through">R$ 1700,00</span>
                         <span> R$ 1349,99</span>
@@ -53,9 +53,9 @@
                     <p class="lead">Você nunca os viu assim. Inspirados no estilo old-school do skate, estes tênis adidas Superstar combinam com tudo. O cabedal em patchwork mistura um xadrez descontraído com as Três Listras ousadas feitas de couro para uma mistura de materiais que simplesmente funciona. A sola de borracha coordenada, a biqueira e a aba do calcanhar completam o visual. E junto com o conforto, há uma pequena surpresa: o forro macio ostenta um tom contrastante para aumentar a energia visual toda vez que você os veste.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>

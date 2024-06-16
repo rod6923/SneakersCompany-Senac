@@ -75,81 +75,96 @@ include 'navbar3.php';
   <div class="card text-center">
     <div class="card-header">
       <ul class="nav nav-tabs card-header-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">FAQ</a>
-        </li>
+       
       
        
       </ul>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Suporte</h5>
-      <p class="card-text">nosso time está disponível de segunda a sábado das 08h às 20h, exceto feriados.
-
-        Desculpe-nos, nosso tempo de resposta está acima do esperado.</p>
-        <div class="row row-cols-2 g-3">
-       
-            <div class="col">
-            <div class="card">
-             
-              <div class="card-body">
-                <h5 class="card-title">Entrega</h5>
-                <p class="card-text"><a href=""class="link-secondary">Como funciona o Frete e Prazos de entrega?</a></p>
-                <p class="card-text"><a href=""class="link-secondary">É possível realizar entregas em outros países?</a></p>
-                <p class="card-text"><a href=""class="link-secondary">Meu pedido está atrasado</a></p>
-              </div>
-              
-               
-              </div>
-            </div>
-            <div class="col">
-           <div class="card">
-              
-              <div class="card-body">
-                <h5 class="card-title">Pagamentos</h5>
-                <p class="card-text"><a href=""class="link-secondary">Como funciona o pagamento via Pix?</a></p>
-                <p class="card-text"><a href=""class="link-secondary">É possível realizar entregas em outros países?</a></p>
-                <p class="card-text"><a href=""class="link-secondary">Opções de pagamento do site</a></p>
-              </div>
-              
-               </div>
-              </div>
-            
-            <div class="col">
-            <div class="card">
-              
-                <div class="card-body "style="height: 190px;">
-                  <h5 class="card-title">Encontre seu Tamanho</h5>
-                  <p class="card-text"><a href=""class="link-secondary">Como identificar o meu tamanho?</a></p>
-                  <p class="card-text"><a href=""class="link-secondary"></a></p>
-                  <p class="card-text"><a href=""class="link-secondary"></a></p>
-                </div>
-                
-                 
-                
-              </div>
-          </div>
-          
-          <div class="col">
-            <div class="card">
-              
-                <div class="card-body">
-                  <h5 class="card-title">Dúvidas Gerais</h5>
-                  <p class="card-text"><a href=""class="link-secondary">Esqueci minha senha</a></p>
-                  <p class="card-text"><a href=""class="link-secondary">Canais de Atendimento</a></p>
-                  <p class="card-text"><a href=""class="link-secondary">Utilização do Vale-Troca
-                </a></p>
-                </div>
-                
-                 
-                
-              </div>
-          </div>
-            </div>
-            <br><br>
-      <a href="#" class="btn btn-dark">Fale com nosso suporte</a>
+      <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Entrega
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapseDelivery">Como funciona o Frete e Prazos de entrega?</a></p>
+        <div id="collapseDelivery" class="collapse">
+          <p>Informações detalhadas sobre os prazos e formas de entrega...</p>
+        </div>
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapseInternational">É possível realizar entregas em outros países?</a></p>
+        <div id="collapseInternational" class="collapse">
+          <p>Informações sobre entregas internacionais...</p>
+        </div>
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapseDelayedOrder">Meu pedido está atrasado</a></p>
+        <div id="collapseDelayedOrder" class="collapse">
+          <p>Informações sobre pedidos atrasados...</p>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed  text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Pagamentos
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapsePix">Como funciona o pagamento via Pix?</a></p>
+        <div id="collapsePix" class="collapse">
+          <p>Informações sobre pagamento via Pix...</p>
+        </div>
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapseInternationalPayment">É possível realizar entregas em outros países?</a></p>
+        <div id="collapseInternationalPayment" class="collapse">
+          <p>Informações sobre pagamento em outros países...</p>
+        </div>
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapsePaymentOptions">Opções de pagamento do site</a></p>
+        <div id="collapsePaymentOptions" class="collapse">
+          <p>Informações sobre as opções de pagamento disponíveis...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed  text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Encontre seu Tamanho
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapseSize">Como identificar o meu tamanho?</a></p>
+        <div id="collapseSize" class="collapse">
+          <p>Informações sobre como encontrar o tamanho certo...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed  text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Dúvidas Gerais
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><a href="#" class="link-secondary hover-danger " data-bs-toggle="collapse" data-bs-target="#collapsePassword">Esqueci minha senha</a></p>
+        <div id="collapsePassword" class="collapse ">
+          <p>Informações sobre recuperação de senha...</p>
+        </div>
+        <p><a href="#" class="link-secondary hover-danger" data-bs-toggle="collapse" data-bs-target="#collapseSupport">Canais de Atendimento</a></p>
+        <div id="collapseSupport" class="collapse ">
+          <p class=>Informações sobre os canais de atendimento...</p>
+        </div>
+        <p><a href="#" class="link-secondary hover-danger " data-bs-toggle="collapse" data-bs-target="#collapseVoucher">Utilização do Vale-Troca</a></p>
+        <div id="collapseVoucher" class="collapse ">
+          <p>Informações sobre a utilização de vales-troca...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <br><br>
 
@@ -159,62 +174,101 @@ include 'navbar3.php';
 
  
   
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class></i>Sneakers Company
-          </h6>
-          <p>
-            Siga-nos nas redes sociais para ficar atualizado sobre os últimos lançamentos e eventos exclusivos. E lembre-se, os tênis raros não são apenas sapatos, são obras de arte que elevam o seu estilo a um novo patamar.
-          </p>
+ <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted"  data-aos="fade-up">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Nos siga em nossas redes sociais:</span>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-        
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
           
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
-          <p><i class="fas fa-home me-3"></i> Sesc, Senac Umuarama Paraná</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            sneakerscompany@gmail.com
-          </p>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold text-danger mb-4">
+                <i class></i>Sneakers Company
+              </h6>
+              <p>
+                Siga-nos nas redes sociais para ficar atualizado sobre os últimos lançamentos e eventos exclusivos. E lembre-se, os tênis raros não são apenas sapatos, são obras de arte que elevam o seu estilo a um novo patamar.
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+            
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           
-          
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold text-danger mb-4">Contato</h6>
+              <p><i class="fas fa-home me-3"></i> Sesc, Senac Umuarama Paraná</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                sneakerscompany@gmail.com
+              </p>
+              
+              
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
         </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-   
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-</body>
-</html>
+      </section>
+      <!-- Section: Links  -->
+    
+    
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+  <script src="login.js"></script>
+  <style>
+ 
+  .hover-danger:hover {
+    color: #dc4c64 !important;
+  }
+</style>
+  </body>
+  </html>

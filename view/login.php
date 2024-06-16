@@ -93,7 +93,7 @@ rel="stylesheet"
     <div class="container px-5 py-xl-5 px-md-5 text-center text-lg-start my-5 " style="height: 800px;">
       <div class="row gx-lg-5 align-items-center mb-5">
         <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(0, 100%, 66%)">
+          <h1 class="my-5 display-1 fw-bold ls-tight" style="color: hsl(0, 100%, 66%)">
             Sneakers <br />
             <span style="color: hsl(0, 100%, 75%); margin-left: 100px;">   Company</span>
           </h1>

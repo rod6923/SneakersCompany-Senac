@@ -45,7 +45,7 @@
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder">Nike Zoom LeBron NXXT Gen Whiter</h1>
+                    <h1 class="display-5 fw-bolder text-danger">Nike Zoom LeBron NXXT Gen Whiter</h1>
                     <div class="fs-5 mb-5">
                         
                         <span>R$ 1899,99</span>
@@ -53,9 +53,9 @@
                     <p class="lead">Seja você um saltador do tipo enterrada ou uma maravilha abaixo da cesta vagando pela linha de base, sinta-se mais rápido, mais baixo na quadra e seguro no LeBron NXXT Gen. Nós o adaptamos especificamente para atender às demandas do ritmo acelerado de hoje jogo, para que você possa ficar à frente da oposição com sua velocidade e força em todas as direções.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>

@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder">Air Jordan 4 Thunder</h1>
+                    <h1 class="display-5 fw-bolder text-danger">Air Jordan 4 Thunder</h1>
                     <div class="fs-5 mb-5">
                         
                         <span>R$ 2799,99</span>
@@ -53,9 +53,9 @@
                     <p class="lead">O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>

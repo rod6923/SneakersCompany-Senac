@@ -45,7 +45,7 @@
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder"> Air Force 1 Mid x Off-White™Pine Green</h1>
+                    <h1 class="display-5 fw-bolder text-danger"> Air Force 1 Mid x Off-White™Pine Green</h1>
                     <div class="fs-5 mb-5">
                         
                         <span>R$ 2149,71</span>
@@ -53,9 +53,9 @@
                     <p class="lead">O legado de Virgil Abloh continua com o Air Force 1 Mid. Comemorando 40 anos de estilo AF1, ele reinventou a silhueta lendária através das lentes futuristas..</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>

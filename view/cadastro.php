@@ -13,8 +13,7 @@
  
    
 	
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	
     <!-- Font Awesome -->
 <link
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -79,7 +78,7 @@ rel="stylesheet"
     <div class="container px-5 py-xl-5 px-md-5 text-center text-lg-start my-5 " style="height: 800px;">
       <div class="row gx-lg-5 align-items-center mb-5">
         <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(0, 100%, 66%)">
+          <h1 class="my-5 display-1 fw-bold ls-tight" style="color: hsl(0, 100%, 66%)">
             Sneakers <br />
             <span style="color: hsl(0, 100%, 75%); margin-left: 100px;">   Company</span>
           </h1>
@@ -131,22 +130,22 @@ rel="stylesheet"
                 <!--Returt to login-->
                 <div class="text-center">
                 <p style="margin-bottom: 10px;" >Já possui uma conta?</p>
-                <a href="login.php"><button type="button" class="btn bg-red-500 btn-block mb-4">   
+                <a href="login.php"><button type="button" class="btn bg-red-500 rounded btn-block mb-4">   
                Entre aqui
                 </button></a>
                  </div>
                 <!-- Register buttons -->
                 <div class="text-center">
                   <p>Ou Cadastre-se Com</p>
-                  <button type="button" class="btn  bg-red-500 btn-floating mx-1">
+                  <button type="button" class="btn  btn-floating mx-1">
                     <i class="fab fa-facebook-f"></i>
                   </button>
   
-                  <button type="button" class="btn  bg-red-500 btn-floating mx-1">
+                  <button type="button" class="btn  btn-floating mx-1">
                     <i class="fab fa-google"></i>
                   </button>
   
-                  <button type="button" class="btn  bg-red-500 btn-floating mx-1">
+                  <button type="button" class="btn  btn-floating mx-1">
                     <i class="fab fa-twitter"></i>
                   </button>
   

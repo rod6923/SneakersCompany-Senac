@@ -45,7 +45,7 @@
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder"> AIR JORDAN XXXVII LOWNothing But Net</h1>
+                    <h1 class="display-5 fw-bolder text-danger"> AIR JORDAN XXXVII LOWNothing But Net</h1>
                     <div class="fs-5 mb-5">
                         <span class="text-decoration-line-through">R$ 2589,99</span>
                         <span> R$ 2399,99</span>
@@ -53,9 +53,9 @@
                     <p class="lead">"Você tem resiliência e velocidade. Calce o tênis que deixa os dois ainda melhores. O mais recente AJ 37 é construído para decolar e pousar, com várias unidades Air para tirar você do chão e espuma Fórmula 23 para amortecer o impacto. A parte superior é feita de um tecido de linho forte e reforçado que mantém o pé no lugar sem prendê-lo.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>

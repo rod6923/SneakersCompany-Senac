@@ -45,7 +45,7 @@
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder"> Air Jordan 1 Retro High OGSkyline </h1>
+                    <h1 class="display-5 fw-bolder text-danger"> Air Jordan 1 Retro High OGSkyline </h1>
                     <div class="fs-5 mb-5">
                         <span class="text-decoration-line-through">R$ 2071,45</span>
                         <span> R$ 1900,00</span>
@@ -53,9 +53,9 @@
                     <p class="lead">Chame a atenção do amanhecer ao anoitecer no Air Jordan 1. O denim premium na parte superior é tingido com um gradiente de claro a escuro, mudando perfeitamente de alpenglow para crepúsculo. O design assimétrico permite que você crie uma atmosfera própria - e o toque final? O amortecimento Nike Air sob os pés permite que você leve seu jogo para qualquer lugar com conforto. O céu é o limite com este.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>

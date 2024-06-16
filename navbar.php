@@ -27,17 +27,10 @@
       rel="stylesheet"
     />
 
-    <style>
+<style>
   .btn#hover{
-    color: 	#DC3545;
-    
-  }  .navbar {
-            box-shadow: none !important;
-        }
-        
-        i{
-          color: #DC4C64}
-</style>
+    color: rgb(83, 2, 2);
+  }
 </style>
 </head>
 <body>
@@ -73,7 +66,11 @@
           </a>
         </li>
        
-      
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="flag.php">
+            <span><i class="fas fa-flag fa-lg"></i></span>
+          </a>
+        </li>
   
         
   
@@ -95,7 +92,7 @@
       </ul>
       <!-- Right elements -->
       <!-- Search form -->
-      <!-- <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
+    <!-- <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
         <input
           autocomplete="off"
           type="search"

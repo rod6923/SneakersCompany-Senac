@@ -31,6 +31,13 @@
   .btn#hover{
     color: rgb(83, 2, 2);
   }
+  .navbar {
+            box-shadow: none !important;
+        }
+        i{
+    color: #DC4C64;
+  }
+      
 </style>
 </head>
 <body>
@@ -92,7 +99,7 @@
       </ul>
       <!-- Right elements -->
       <!-- Search form -->
-      <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
+    <!-- <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
         <input
           autocomplete="off"
           type="search"
@@ -103,7 +110,7 @@
         <span class="input-group-text border-0 d-none d-lg-flex"
           ><i class="fas fa-search"></i
         ></span>
-      </form>
+      </form> -->
     </div>
     </div>
   </nav>

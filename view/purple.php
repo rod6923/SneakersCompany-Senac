@@ -45,7 +45,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="small mb-1">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder">Air Jordan 13 Court Purple </h1>
+                        <h1 class="display-5 fw-bolder text-danger">Air Jordan 13 Court Purple </h1>
                         <div class="fs-5 mb-5">
                             
                             <span>R$1999,99</span>

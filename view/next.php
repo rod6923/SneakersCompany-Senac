@@ -45,7 +45,7 @@
                  </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: BST-498</div>
-                    <h1 class="display-5 fw-bolder"> Air Jordan 1 High OGNext Chapter</h1>
+                    <h1 class="display-5 fw-bolder text-danger"> Air Jordan 1 High OGNext Chapter</h1>
                     <div class="fs-5 mb-5">
                         
                         <span>R$ 1989,97</span>
@@ -53,9 +53,9 @@
                     <p class="lead">Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos nos pés do Miles em “Spider-Man: Across the Spider-Verse”, exclusivamente nos cinemas em junho. Esta nova versão da icônica colorway de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, este é seu momento.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <a href="cart.php"><button class="btn btn-outline-dark flex-shrink-0 butao" type="button">
-                            <i class="bi-cart-fill me-1"></i>
-                            Adicionar no Carrinho
+                        <a href="cart.php"><button class="btn btn-outline-danger flex-shrink-0 rounded-pill" type="button">
+                            <i class="bi-cart-fill me-1 text-danger"></i>
+                            Onde comprar?
                         </button></a>
                     </div>
                 </div>
