@@ -9,31 +9,25 @@
               </title><link rel="icon" 
               type="image/jpg" 
               href="img/logo.png.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  
+   
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
+    
     <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
-      rel="stylesheet"
-    />
-
+   
 <style>
   .btn#hover{
-    color: rgb(83, 2, 2);
-  }
+    color: 	#DC3545;
+    
+  }  .navbar {
+            box-shadow: none !important;
+        }
+      
 </style>
 </head>
 <body>
+   <!-- Loading Indicator -->
+
   <!-- Navbaar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand me-2 mb-1 d-flex align-content-start" href="#">
@@ -59,14 +53,14 @@
       <!-- Center elements -->
       
       <ul class="navbar-nav flex-row d-none d-md-flex">
-        <li class="nav-item me-3 me-lg-1 active">
-          <a class="nav-link" href="index2.php">
-            <span><i class="fas fa-home fa-lg"></i></span>
-         
+        
+
+       
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="flag.php">
+            <span><i class="fas fa-flag fa-lg"></i></span>
           </a>
         </li>
-       
-      
   
         
   
@@ -88,7 +82,7 @@
       </ul>
       <!-- Right elements -->
       <!-- Search form -->
-      <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
+      <!-- <form  class="input-group w-auto my-auto d-none d-sm-flex justify-content-end">
         <input
           autocomplete="off"
           type="search"
@@ -101,7 +95,7 @@
         ></span>
       </form>
     </div>
-    </div>
+    </div> -->
   </nav>
   <!-- Navbar -->
     

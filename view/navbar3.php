@@ -27,10 +27,15 @@
       rel="stylesheet"
     />
 
-<style>
+    <style>
   .btn#hover{
-    color: rgb(83, 2, 2);
-  }
+    color: 	#DC3545;
+    
+  }  .navbar {
+            box-shadow: none !important;
+        }
+      
+</style>
 </style>
 </head>
 <body>
@@ -59,14 +64,14 @@
       <!-- Center elements -->
       
       <ul class="navbar-nav flex-row d-none d-md-flex">
-        
-
-       
-        <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link" href="flag.php">
-            <span><i class="fas fa-flag fa-lg"></i></span>
+        <li class="nav-item me-3 me-lg-1 active">
+          <a class="nav-link" href="index2.php">
+            <span><i class="fas fa-home fa-lg"></i></span>
+         
           </a>
         </li>
+       
+      
   
         
   
