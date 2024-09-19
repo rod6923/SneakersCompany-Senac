@@ -126,7 +126,7 @@ rel="stylesheet"
                 
   
                 <!-- Submit button -->
-                <button type="submit" class="btn bg-red-500 btn-block mb-4" onclick="login(); return false">
+                <button type="submit" class="btn bg-red-500 btn-block mb-4">
                Login
                 </button>
   

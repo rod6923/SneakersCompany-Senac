@@ -97,7 +97,7 @@ rel="stylesheet"
             <div class="card-body px-4 py-5 px-md-5">
               
               
-              <form action="" method="post">
+              <form action="cadastrar.php" method="post">
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <!-- Email input -->
                 <div class="relative z-0 my-4">
