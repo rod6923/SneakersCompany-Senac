@@ -5,7 +5,7 @@ include("../service/conexao.php");
 $nome = (trim($_POST['nome']));
 $sobrenome  = (trim($_POST["sobrenome"]));
 $email = (trim($_POST["email"]));
-$senha = (trim(md5($_POST["senha"])));
+$senha = (trim($_POST["senha"]));
 
 $sql = "select count(*) as total from cadastro where email = '$email'";
 $result = $conn->prepare($sql);

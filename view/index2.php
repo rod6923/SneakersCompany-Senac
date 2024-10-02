@@ -394,6 +394,6 @@ border: 2px solid;
         duration: 1200,
       });
     </script>
-  <script src="login.js"></script>
+ 
   </body>
   </html>
