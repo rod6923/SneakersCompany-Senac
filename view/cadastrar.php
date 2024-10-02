@@ -21,8 +21,9 @@ exit;
 
 $sql = "INSERT INTO cadastro (nome, sobrenome, email, senha) VALUES ('$nome', '$sobrenome', '$email', '$senha')";
 
-if($conn->query($sql) === TRUE) {
+if($conn->query($sql)) {
     $_SESSION['status_cadastro'] = true;
+    $_SESSION['req'] = 1;
 }
 
 
