@@ -72,12 +72,60 @@
            
             </a>
           </li>
+          </li>
+        <li class="nav-item me-3 me-lg-1 active">
+          <a class="nav-link"  id="openPopup" >
+            <span><i class="fas fa-plus fa-lg"></i></span>
+         
+          </a>
+        </li>
       </ul>
       <!-- Center elements -->
   
       <!-- Right elements -->
-      
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .popup-content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .close {
+            cursor: pointer;
+            float: right;
+            font-size: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+        }
+       
+        
+    </style>
          
+
+
+
     
       </ul>
       <!-- Right elements -->

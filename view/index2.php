@@ -394,6 +394,63 @@ border: 2px solid;
         duration: 1200,
       });
     </script>
- 
+< div class="popup" id="popup">
+    <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <h2>Criar Nova Postagem</h2>
+        <form id="postForm" method="POST" action="">
+            <input type="file" id="file" />
+            <input name="postContent" placeholder="Escreva seu post aqui..." required></input>
+            <button type="submit">Publicar</button>
+        </form>
+    </div>
+</div>
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <h2>Criar Nova Postagem</h2>
+        <form id="postForm" method="POST" action="">
+            <input type="file" id="file" />
+            <input name="postContent" placeholder="Escreva seu post aqui..." required></input>
+            <button type="submit">Publicar</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    const openPopup = document.getElementById('openPopup');
+    const closePopup = document.getElementById('closePopup');
+    const popup = document.getElementById('popup');
+
+    openPopup.onclick = function() {
+        popup.style.display = 'flex';
+    }
+
+    closePopup.onclick = function() {
+        popup.style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    }
+</script>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Aqui você pode processar o post
+    $postContent = htmlspecialchars(trim($_POST['postContent']));
+    
+    // Salvar no banco de dados ou fazer outra ação
+    // Exemplo: echo $postContent para verificar
+    echo "<script>alert('Postagem publicada: $postContent');</script>";
+}
+?>
+
+
+
+
   </body>
   </html>
