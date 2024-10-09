@@ -68,12 +68,7 @@
          
           </a>
         </li>
-        <li class="nav-item me-3 me-lg-1 active">
-          <a class="nav-link" href="index2.php">
-            <span><i class="fas fa-plus fa-lg"></i></span>
-         
-          </a>
-        </li>
+     
         
        
       </ul>

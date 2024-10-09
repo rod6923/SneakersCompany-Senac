@@ -394,22 +394,6 @@ border: 2px solid;
         duration: 1200,
       });
     </script>
-
-
-
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Aqui você pode processar o post
-    $postContent = htmlspecialchars(trim($_POST['postContent']));
-    
-    // Salvar no banco de dados ou fazer outra ação
-    // Exemplo: echo $postContent para verificar
-    echo "<script>alert('Postagem publicada: $postContent');</script>";
-}
-?>
-
-
-
-
+  <script src="login.js"></script>
   </body>
   </html>
